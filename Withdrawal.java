@@ -17,7 +17,7 @@ public class Withdrawal extends Transaction {
 
       // initialize superclass variables
       super(userAccountNumber, atmScreen, atmBankDatabase);
-      
+      cashDispenser=atmCashDispenser;
    }
 
    // perform transaction
